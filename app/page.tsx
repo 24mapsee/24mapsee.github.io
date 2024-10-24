@@ -6,10 +6,10 @@ export default function Home() {
   };
 
   return (
-    <div className="bg-gray-50 h-full">
+    <div className="h-full">
       <main className="w-full flex justify-center p-4 h-full md:items-center">
         <div className="grid md:grid-cols-2 gap-12 md:gap-x-24 md:grid-rows-[6rem_auto] md:gap-y-16 max-h-[900px]">
-          <div className="md:col-start-2 md:row-start-1">
+          <div className="md:col-start-2 md:row-start-1 flex justify-center md:justify-start">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -31,7 +31,7 @@ export default function Home() {
               />
             </div>
           </div>
-          <div className="md:col-start-2 flex items-center flex-col md:items-start">
+          <div className="md:col-start-2 flex items-center flex-col md:items-start md:pb-0 pb-16">
             <h1 className="md:text-start text-center pt-2 font-extrabold text-4xl md:text-6xl">
               나의,
               <br />
@@ -39,7 +39,7 @@ export default function Home() {
               <br />
               나를 위한 지도
             </h1>
-            <p className="md:text-start text-center py-8 text-xl md:text-2xl font-bold text-gray-600">
+            <p className="md:text-start text-center md:py-8 py-4 text-xl md:text-2xl font-bold text-gray-600">
               K-PaaS 플랫폼 기반 맞춤형 지도 플랫폼
             </p>
             <button
