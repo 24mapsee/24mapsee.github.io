@@ -7,13 +7,13 @@ export default function Home() {
 
   return (
     <div className="h-full">
-      <main className="w-full flex justify-center p-4 h-full md:items-center">
-        <div className="grid md:grid-cols-2 gap-12 md:gap-x-24 md:grid-rows-[6rem_auto] md:gap-y-16 max-h-[900px]">
+      <main className="w-full flex justify-center px-4 py-8 h-full md:items-center">
+        <div className="grid md:grid-cols-2 gap-8 md:gap-x-24 md:grid-rows-[6rem_auto] md:gap-y-16 max-h-[900px]">
           <div className="md:col-start-2 md:row-start-1 flex justify-center md:justify-start">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
-              className="md:h-24 h-20 w-auto"
+              className="md:h-24 h-16 w-auto"
               viewBox="0 0 124 93"
             >
               <path
@@ -23,7 +23,7 @@ export default function Home() {
             </svg>
           </div>
           <div className="md:row-span-2 md:col-start-1 md:row-start-1">
-            <div className="relative max-w-lg flex justify-center items-center">
+            <div className="relative max-w-lg flex justify-center items-centerm md:pt-8 pt-3">
               <img
                 src="/images/img_pr.png"
                 alt="phone"
